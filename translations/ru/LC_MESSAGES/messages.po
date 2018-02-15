@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  0.2\n"
 "Report-Msgid-Bugs-To: stan@originprotocol.com\n"
-"POT-Creation-Date: 2018-01-21 21:10-0700\n"
+"POT-Creation-Date: 2018-02-09 11:27-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -22,10 +22,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.5.1\n"
 
 #: logic/emails/mailing_list.py:17 logic/emails/mailing_list.py:35
-#: logic/emails/mailing_list.py:96
+#: logic/emails/mailing_list.py:111
 msgid "Please enter a valid email address"
 msgstr "Укажите корректный адрес электронной почты"
 
@@ -37,76 +37,51 @@ msgstr "Вы уже зарегистрированы!"
 msgid "Thanks for signing up!"
 msgstr "Спасибо за регистрацию!"
 
-#: logic/emails/mailing_list.py:52 logic/emails/mailing_list.py:112
+#: logic/emails/mailing_list.py:52 logic/emails/mailing_list.py:127
 msgid "Ooops! Something went wrong."
 msgstr "Ой! Что-то пошло не так."
 
-#: logic/emails/mailing_list.py:64 logic/emails/mailing_list.py:123
+#: logic/emails/mailing_list.py:79 logic/emails/mailing_list.py:138
 msgid "Thanks! We'll be in touch soon."
 msgstr "Спасибо! Мы скоро с вами свяжемся."
 
-#: logic/emails/mailing_list.py:77
+#: logic/emails/mailing_list.py:92
 msgid "Ooops, something went wrong"
 msgstr "Ой, что-то пошло не так"
 
-#: logic/emails/mailing_list.py:79
+#: logic/emails/mailing_list.py:94
 msgid "You have been unsubscribed"
 msgstr "Ваша подписка была отменена"
 
-#: logic/emails/mailing_list.py:99
+#: logic/emails/mailing_list.py:114
 msgid "Please enter a valid website address"
 msgstr "Введите корректный адрес веб-сайта"
 
-#: templates/build_on_origin.html:3
-msgid "The sharing economy without intermediaries: Build on Origin"
-msgstr "Экономика обмена без посредников: Построено на Origin"
+#: templates/404.html:66
+msgid "Page not found."
+msgstr "СТРАНИЦА НЕ НАЙДЕНА"
 
-#: templates/build_on_origin.html:5
-msgid "Origin Protocol - Build on Origin"
-msgstr "Origin Protocol - Построено на Origin"
+#: templates/404.html:75
+msgid "Ask For Directions On Slack"
+msgstr "Ask For Directions On Slack"
 
-#: templates/build_on_origin.html:16
-msgid "Build on Origin"
-msgstr "Построено на Origin"
+#: templates/404.html:83
+msgid "Make New Friends On Telegram"
+msgstr "Make New Friends On Telegram"
 
-#: templates/build_on_origin.html:21
-msgid "<strong>Teams all over the world are building on Origin's protocols. We're looking for more amazing people to join our mission.</strong> Whether you're an existing blockchain company or a traditional marketplace thinking about the blockchain, we'd love to hear from you! Fill out the form below and we'll get back to you shortly."
-msgstr "<strong> Команды во всему миру используют Origin. Мы ищем больше потрясающих людей, которые присоединятся к нашей миссии. </strong> Независимо от того, являетесь ли вы существующей блокчейн компанией или традиционным рынком, думающим о блокчейне, мы будем рады услышать вас! Заполните форму ниже, и мы скоро свяжемся с вами."
+#: templates/base.html:16 templates/index.html:5
+msgid "Origin Protocol"
+msgstr "Origin Protocol"
 
-#: templates/build_on_origin.html:66
-msgid "Interested in building?"
-msgstr "Заинтересованы Origin?"
-
-#: templates/build_on_origin.html:72 templates/build_on_origin.html:73
-msgid "Name"
-msgstr "Имя"
-
-#: templates/build_on_origin.html:77 templates/build_on_origin.html:78
-msgid "Company"
-msgstr "Компания"
-
-#: templates/build_on_origin.html:82 templates/build_on_origin.html:83
-#: templates/presale.html:77 templates/presale.html:78
-msgid "Email"
-msgstr "Эл. адрес"
-
-#: templates/build_on_origin.html:87 templates/build_on_origin.html:88
-msgid "Website"
-msgstr "Сайт"
-
-#: templates/build_on_origin.html:92 templates/presale.html:397
-msgid "<strong>Anything else we should know?</strong> (optional)"
-msgstr "<strong> Что-нибудь еще, что мы должны знать? </strong> (необязательно)"
-
-#: templates/build_on_origin.html:96 templates/presale.html:411
-msgid "Submit"
-msgstr "Принять"
+#: templates/base.html:17
+msgid "Origin Protocol enables the sharing economy on the blockchain"
+msgstr "Origin Protocol enables the sharing economy on the blockchain"
 
 #: templates/flashes.html:7
 msgid "Make new friends!"
 msgstr "Заведите новых друзей!"
 
-#: templates/flashes.html:7
+#: templates/flashes.html:7 templates/index.html:88
 msgid "Join Our Telegram"
 msgstr "Наш Telegram"
 
@@ -131,15 +106,14 @@ msgid "Origin is building the sharing economy of tomorrow. Buyers and sellers wi
 msgstr "Origin строит экономику совместного потребления завтрашнего дня. Покупатели и продавцы смогут совершать сделки без рентоориентированных посредников. Мы верим в снижение комиссий за транзакции, снижение цензуры и регулирования, а также предоставление ранним участникам сообщества доли в сети."
 
 #: templates/footer.html:15
-msgid "Origin, Inc."
-msgstr "Origin, Inc."
+msgid "Origin Protocol, Inc."
+msgstr "Origin Protocol, Inc."
 
 #: templates/footer.html:22
 msgid "Documentation"
 msgstr "Документация"
 
-#: templates/footer.html:27 templates/navbar_dark.html:20
-#: templates/navbar_light.html:20
+#: templates/footer.html:27 templates/navbar.html:36
 msgid "Product Brief"
 msgstr "Обзор продукта"
 
@@ -187,21 +161,23 @@ msgstr "Facebook"
 msgid "Organization"
 msgstr "Организация"
 
-#: templates/footer.html:91 templates/navbar_dark.html:23
-#: templates/navbar_light.html:23
+#: templates/footer.html:91 templates/navbar.html:39
 msgid "Team"
 msgstr "Команда"
 
-#: templates/footer.html:96 templates/navbar_dark.html:17
-#: templates/navbar_light.html:17 templates/presale.html:16
+#: templates/footer.html:96 templates/navbar.html:33 templates/presale.html:18
 msgid "Presale"
 msgstr "Предпродажа"
 
 #: templates/footer.html:101
+msgid "Partners"
+msgstr "Партнеры"
+
+#: templates/footer.html:106
 msgid "Jobs (We're hiring!)"
 msgstr "Вакансии (Мы нанимаем!)"
 
-#: templates/footer.html:106
+#: templates/footer.html:111
 msgid "845 Market St, #450A<br>San Francisco, CA 94103"
 msgstr "845 Market St, #450A<br>San Francisco, CA 94103"
 
@@ -209,182 +185,303 @@ msgstr "845 Market St, #450A<br>San Francisco, CA 94103"
 msgid "The sharing economy without intermediaries. Origin is a protocol for creating sharing economy marketplaces using the Ethereum blockchain and IPFS."
 msgstr "Экономика обмена без посредников. Origin это протокол создания торговых площадок для экономики совместного потребления, использующий блокчейн Ethereum и IPFS"
 
-#: templates/index.html:5
-msgid "Origin Protocol"
-msgstr "Origin Protocol"
-
 #: templates/index.html:16
 msgid "The sharing economy without intermediaries"
 msgstr "Экономика обмена без посредников"
 
 #: templates/index.html:19
-msgid "Origin is a protocol for creating sharing economy marketplaces using the Ethereum blockchain and IPFS"
-msgstr "Origin это протокол создания торговых площадок для экономики совместного потребления, использующий блокчейн Ethereum и IPFS"
+msgid "Origin is a protocol for creating sharing economy marketplaces"
+msgstr "Origin это протокол создания торговых площадок для экономики совместного потребления,"
 
-#: templates/index.html:66
+#: templates/index.html:26
+msgid "using the Ethereum blockchain and IPFS"
+msgstr "использующий блокчейн Ethereum и IPFS"
+
+#: templates/index.html:72
 msgid "The Origin platform"
 msgstr "Платформа Origin"
 
-#: templates/index.html:69
+#: templates/index.html:75
 msgid "We empower developers and businesses to build decentralized marketplaces on the blockchain. Our protocol makes it easy to create and manage listings for the fractional usage of assets and services. Buyers and sellers can discover each other, browse listings, make bookings, leave ratings and reviews, and much more."
 msgstr "Мы предоставляем разработчикам и предприятиям возможность создавать децентрализованные рынки на блокчейне. Наш протокол упрощает создание и управление списками для долевого использования активов и услуг. Покупатели и продавцы могут находить друг друга, просматривать списки, делать заказы, оставлять рейтинги и обзоры и многое другое."
 
-#: templates/index.html:74
+#: templates/index.html:80
 msgid "Read the Product Brief"
 msgstr "Обзор продукта"
 
-#: templates/index.html:96
-msgid "Companies building on the Origin Protocol"
-msgstr "Компании, использующие Origin Protocol"
+#: templates/index.html:105
+msgid "Partners building on Origin"
+msgstr "Партнеры, основанные на Origin"
+
+#: templates/index.html:108
+msgid "Teams all over the world are building on Origin's protocols, but we're looking for more amazing people to join our mission."
+msgstr "Teams all over the world are building on Origin's protocols, but we're looking for more amazing people to join our mission."
+
+#: templates/index.html:113
+msgid "View All Partners"
+msgstr "View All Partners"
+
+#: templates/index.html:124
+msgid "Propy is building their property manager marketplace DApp with Origin Protocol."
+msgstr "Propy is building their property manager marketplace DApp with Origin Protocol."
+
+#: templates/index.html:131
+msgid "DApps built on Origin will be able to use WeTrust’s decentralized insurance protocols to protect users."
+msgstr "DApps built on Origin will be able to use WeTrust’s decentralized insurance protocols to protect users."
 
 #: templates/index.html:140
+msgid "Bee Token is building a middleman free, peer-to-peer network of hosts and guests on the decentralized web using Origin Protocol."
+msgstr "Bee Token is building a middleman free, peer-to-peer network of hosts and guests on the decentralized web using Origin Protocol."
+
+#: templates/index.html:149
+msgid "CanYa is building their “marketplace of services” with Origin Protocol for the gig economy."
+msgstr "CanYa is building their “marketplace of services” with Origin Protocol for the gig economy."
+
+#: templates/index.html:186
 msgid "Build your business on Origin"
 msgstr "Создайте свой бизнес на Origin"
 
-#: templates/index.html:143
+#: templates/index.html:189
 msgid "Whether you are a freelance photographer, apartment owner, bikeshare supplier, or existing sharing economy business, Origin makes it easy to do business on the decentralized web."
 msgstr "Независимо от того, являетесь ли вы внештатным фотографом, владельцем квартиры, велопрокатом или уже существующим бизнесом совместного потребления, Origin упрощает работу в децентрализованной сети."
 
-#: templates/index.html:143
+#: templates/index.html:189
 msgid "Get in touch to learn more."
 msgstr "Свяжитесь с нами, чтобы узнать больше."
 
-#: templates/index.html:148
+#: templates/index.html:194
 msgid "Try the Demo"
 msgstr "Попробуйте демо"
 
-#: templates/index.html:155
-msgid "View Github"
+#: templates/index.html:202
+msgid "View GitHub"
 msgstr "Просмотр Github"
 
-#: templates/index.html:168
+#: templates/index.html:215
 msgid "It's time to replace rent-seeking middlemen"
 msgstr "Пришло время заменить рентоориентированных посредников"
 
-#: templates/index.html:171
+#: templates/index.html:218
 #, python-format
 msgid "Harnessing the power of the Ethereum blockchain, listings are managed via a secure and transparent system that acts as a neutral third party. Buyers and sellers share the 20-30%% transaction fees that currently go to companies like Uber, Airbnb, Fiverr, and Getaround."
 msgstr "Cписки управляются с помощью безопасной и прозрачной системы, использующей возможности блокчейна Ethereum, которая действует как нейтральная третья сторона. Покупатели и продавцы разделяют комиссионные сборы в размере 20-30%%, которые в настоящее время отходят таким компаниям, как Uber, Airbnb, Fiverr и Getaround."
 
-#: templates/index.html:176
+#: templates/index.html:223
 msgid "Read the Whitepaper"
 msgstr "Прочтите техописание"
 
-#: templates/index.html:230
+#: templates/index.html:277
 msgid "Smart contracts enable secure and reliable payments directly from one party to another"
 msgstr "Смарт-контракты обеспечивают безопасные и надежные прямые платежи."
 
-#: templates/index.html:241
+#: templates/index.html:288
 msgid "Protocol schemas support hundreds of listing types, including custom verticals"
 msgstr "Схемы протоколов поддерживают сотни типов списков, включая пользовательские категории"
 
-#: templates/index.html:252
+#: templates/index.html:299
 msgid "Open and shared data encourages innovation by developers and businesses"
 msgstr "Открытые и общедоступные данные поощряют инновации разработчиков и предприятий"
 
-#: templates/index.html:263
+#: templates/index.html:310
 msgid "Identity verification and reputation data on the blockchain ensures safe, reputable partners"
 msgstr "Хранение личных данных и репутации в блокчейне гарантирует  безопасность и надежность партнеров"
 
-#: templates/index.html:280
+#: templates/index.html:327
 msgid "Tech Stack"
 msgstr "Технический стек"
 
-#: templates/index.html:349
+#: templates/index.html:396
 msgid "Roadmap"
 msgstr "Дорожная карта"
 
-#: templates/index.html:355
+#: templates/index.html:402
 msgid "May 2017"
 msgstr "Май 2017"
 
-#: templates/index.html:357
+#: templates/index.html:404
 msgid "Idea conception and demo DApp development"
 msgstr "Концепт и разработка демо DApp"
 
-#: templates/index.html:362
+#: templates/index.html:409
 msgid "September 2017"
 msgstr "Сентябрь 2017"
 
-#: templates/index.html:364
+#: templates/index.html:411
 msgid "Product Brief</a> and <a href='/whitepaper'>Whitepaper</a> released"
 msgstr "Обзор продукта </a> и <a href='/whitepaper'> техническое описание </a>"
 
-#: templates/index.html:369
+#: templates/index.html:416
 msgid "December 2017"
 msgstr "Декабрь 2017"
 
-#: templates/index.html:371
+#: templates/index.html:418
 msgid "Launch <a href='https://demo.originprotocol.com' target='_blank'>alpha</a> on Ethereum testnet"
-msgstr "Запуск <a href='https://demo.originprotocol.com' target='_blank'> альфа-версии </a> в тестовой сети Ethereum"
+msgstr "Launch <a href='https://demo.originprotocol.com' target='_blank'>alpha</a> on Ethereum testnet"
 
-#: templates/index.html:376
+#: templates/index.html:423
 msgid "March 2018"
 msgstr "Март 2018"
 
-#: templates/index.html:378
+#: templates/index.html:425
 msgid "Public beta and community sale"
 msgstr "Публичная бета-версия и продажа для сообщества"
 
-#: templates/index.html:383
+#: templates/index.html:430
 msgid "Q3 2018"
 msgstr "3 квартал 2018"
 
-#: templates/index.html:385
+#: templates/index.html:432
 msgid "Token distribution and launch of 3rd-party DApps"
 msgstr "Распределение токенов и запуск сторонних DApps"
 
-#: templates/index.html:390
+#: templates/index.html:437
 msgid "2019"
 msgstr "2019"
 
-#: templates/index.html:392
+#: templates/index.html:439
 msgid "Fully decentralized services and governance"
 msgstr "Полная децентрализация сервисов и управления"
 
-#: templates/index.html:418
+#: templates/index.html:465
 msgid "Join us in building the sharing economy of tomorrow"
 msgstr "Присоединяйтесь к нам в создании экономики завтрашнего дня"
 
-#: templates/index.html:421
+#: templates/index.html:468
 msgid "Sign up for our mailing list and be first to learn of any Origin news!"
 msgstr "Подпишитесь на нашу рассылку и первыми узнавайте о любых новостях Origin!"
 
-#: templates/index.html:425
+#: templates/index.html:472
 msgid "Enter email"
 msgstr "Введите адрес электронной почты"
 
-#: templates/index.html:428
+#: templates/index.html:475
 msgid "Join the Community"
 msgstr "Присоединиться к сообществу"
 
-#: templates/index.html:442
+#: templates/index.html:489
 msgid "Press"
 msgstr "Пресса"
 
-#: templates/index.html:455
-msgid "If Airbnb were being started today, it would’ve been a peer-to-peer cooperative model based on a blockchain - Joey Krug, Augur"
+#: templates/index.html:501
+msgid "If Airbnb were being started today, it would've been a peer-to-peer cooperative model based on a blockchain - @joeykrug re: @originprotocol"
+msgstr "If Airbnb were being started today, it would've been a peer-to-peer cooperative model based on a blockchain - @joeykrug re: @originprotocol"
+
+#: templates/index.html:502
+msgid "If Airbnb were being started today, it would've been a peer-to-peer cooperative model based on a blockchain - Joey Krug, Augur"
 msgstr "Если бы Airbnb начинали сегодня, это была бы модель неиерархичного сотрудничества, основанная на блокчейне - Joey Krug, Augur"
 
-#: templates/index.html:472
+#: templates/index.html:517
+msgid "@originprotocol is a set of open-source blockchain protocols for buyers and sellers of services like car-sharing or home-sharing to transact on a decentralized, open web platform."
+msgstr "@originprotocol is a set of open-source blockchain protocols for buyers and sellers of services like car-sharing or home-sharing to transact on a decentralized, open web platform."
+
+#: templates/index.html:518
 msgid "The Origin Protocol is a set of open-source blockchain protocols for buyers and sellers of services like car-sharing or home-sharing to transact on a decentralized, open web platform."
 msgstr "Протокол Origin представляет собой набор блокчейн протоколов с открытым исходным кодом, позволяющий покупателям и продавцам таких услуг, как каршеринг или аренда жилья, взаимодействовать на децентрализованной открытой веб-платформе."
 
-#: templates/index.html:489
+#: templates/index.html:533
+msgid "@originprotocol hopes to decentralize the sharing economy with Ethereum by creating a peer-to-peer network for transacting directly for just about anything."
+msgstr "@originprotocol hopes to decentralize the sharing economy with Ethereum by creating a peer-to-peer network for transacting directly for just about anything."
+
+#: templates/index.html:534
 msgid "Origin wants to change that, hoping to decentralize the sharing economy with Ethereum by creating a peer-to-peer network for transacting directly for just about anything."
 msgstr "Origin хочет децентрализовать экономику обмена с помощью Ethereum, создав неиерархичную сеть для прямого обмена практически чего угодно."
 
-#: templates/index.html:506
+#: templates/index.html:549
+msgid "What if open-source software like @originprotocol can replace dozens of multi-million or even multi-billion dollar companies?"
+msgstr "What if open-source software like @originprotocol can replace dozens of multi-million or even multi-billion dollar companies?"
+
+#: templates/index.html:550
 msgid "What if open-source software can replace dozens of multi-million or even multi-billion dollar companies?"
 msgstr "Что, если программное обеспечение с открытым исходным кодом сможет заменить десятки многомиллионных или даже многомиллиардных компаний?"
 
-#: templates/navbar_dark.html:26 templates/navbar_light.html:26
+#: templates/index.html:565
+msgid "@originprotocol uses the Ethereum Blockchain to help buyers and sellers transact in a decentralized environment without traditional intermediaries."
+msgstr "@originprotocol uses the Ethereum Blockchain to help buyers and sellers transact in a decentralized environment without traditional intermediaries."
+
+#: templates/index.html:566
+msgid "Origin Protocol uses the Ethereum Blockchain to help buyers and sellers transact in a decentralized environment without traditional intermediaries."
+msgstr "Origin Protocol uses the Ethereum Blockchain to help buyers and sellers transact in a decentralized environment without traditional intermediaries."
+
+#: templates/index.html:581
+msgid "@originprotocol uses the Ethereum blockchain to enable buyers and sellers to interact with each other in an effective manner."
+msgstr "@originprotocol uses the Ethereum blockchain to enable buyers and sellers to interact with each other in an effective manner."
+
+#: templates/index.html:582
+msgid "Origin Protocol, which uses the ethereum blockchain, enables buyers and sellers to interact with each other in an effective manner."
+msgstr "Origin Protocol, which uses the ethereum blockchain, enables buyers and sellers to interact with each other in an effective manner."
+
+#: templates/navbar.html:42
 msgid "Blog"
 msgstr "Блог"
 
-#: templates/navbar_dark.html:29 templates/navbar_light.html:29
+#: templates/navbar.html:45
 msgid "Demo"
 msgstr "Демо"
+
+#: templates/partners.html:3
+msgid "The sharing economy without intermediaries: Build on Origin"
+msgstr "Экономика обмена без посредников: Построено на Origin"
+
+#: templates/partners.html:5
+msgid "Origin Protocol - Build on Origin"
+msgstr "Origin Protocol - Построено на Origin"
+
+#: templates/partners.html:16
+msgid "Build on Origin"
+msgstr "Построено на Origin"
+
+#: templates/partners.html:22
+msgid "<strong>Teams all over the world are building their projects using Origin’s protocols. We are looking for more amazing people to join our mission.</strong>"
+msgstr "<strong>Teams all over the world are building their projects using Origin’s protocols. We are looking for more amazing people to join our mission.</strong>"
+
+#: templates/partners.html:244
+msgid "Join our mission!"
+msgstr "Join our mission!"
+
+#: templates/partners.html:247
+msgid "Whether you’re an existing blockchain company or a traditional marketplace thinking about blockchain technology, we’d love to hear from you. Fill out the form below and we will get back to you shortly."
+msgstr "Whether you’re an existing blockchain company or a traditional marketplace thinking about blockchain technology, we’d love to hear from you. Fill out the form below and we will get back to you shortly."
+
+#: templates/partners.html:251
+msgid "Name"
+msgstr "Имя"
+
+#: templates/partners.html:252
+msgid "Firstname Lastname"
+msgstr "@Имя @Фамилия"
+
+#: templates/partners.html:255
+msgid "Company"
+msgstr "Компания"
+
+#: templates/partners.html:256
+msgid "My Amazing Company"
+msgstr "My Amazing Company"
+
+#: templates/partners.html:259 templates/presale.html:79
+#: templates/presale.html:80
+msgid "Email"
+msgstr "Эл. адрес"
+
+#: templates/partners.html:260
+msgid "yourname@websitename.com"
+msgstr "yourname@websitename.com"
+
+#: templates/partners.html:263
+msgid "Website"
+msgstr "Сайт"
+
+#: templates/partners.html:264
+msgid "https://websitename.com"
+msgstr "https://websitename.com"
+
+#: templates/partners.html:267 templates/presale.html:399
+msgid "<strong>Anything else we should know?</strong> (optional)"
+msgstr "<strong> Что-нибудь еще, что мы должны знать? </ strong> (необязательно)"
+
+#: templates/partners.html:276
+msgid "Become a Partner"
+msgstr "Become a Partner"
 
 #: templates/presale.html:3
 msgid "The sharing economy without intermediaries: Origin Protocol Presale"
@@ -394,73 +491,77 @@ msgstr "Экономика обмена без посредников: Пред�
 msgid "Origin Protocol - Presale"
 msgstr "Origin Protocol - Предпродажа"
 
-#: templates/presale.html:21
+#: templates/presale.html:23
 msgid "<strong>The exact date and details of the Origin presale have not yet been announced.</strong> Please fill out this form if you are interested in participating in the Origin presale and want to be updated as more details are announced."
 msgstr "<strong> Точная дата и детали предпродажи Origin пока не объявлены. </ strong> Пожалуйста, заполните эту форму, если вы заинтересованы в участии в предпродаже Origin и хотите получать обновления по мере появления новых сведений."
 
-#: templates/presale.html:66
+#: templates/presale.html:68
 msgid "Interested in contributing?"
 msgstr "Хотите внести свой вклад?"
 
-#: templates/presale.html:72 templates/presale.html:73
+#: templates/presale.html:74 templates/presale.html:75
 msgid "Full Name"
 msgstr "Полное Имя"
 
-#: templates/presale.html:82
+#: templates/presale.html:84
 msgid "Are you an an accredited investor?"
 msgstr "Вы являетесь аккредитованным инвестором?"
 
-#: templates/presale.html:83
+#: templates/presale.html:85
 msgid "Huh?"
 msgstr "Да?"
 
-#: templates/presale.html:84
+#: templates/presale.html:86
 msgid "An accredited investor must have a net worth of at least $1,000,000, excluding the value of one's primary residence, or have income at least $200,000 each year for the last two years (or $300,000 combined income if married.)"
 msgstr "Аккредитованный инвестор должен иметь чистые активы в размере не менее 1 000 000 долларов США, за исключением стоимости недвижимости - основного места жительства или иметь доход не менее 200 000 долларов США каждый год в течение последних двух лет (или комбинированный доход в размере 300 000 долларов США, если он состоит в браке)."
 
-#: templates/presale.html:88
+#: templates/presale.html:90
 msgid "Yes"
 msgstr "Да"
 
-#: templates/presale.html:93
+#: templates/presale.html:95
 msgid "No"
 msgstr "Нет"
 
-#: templates/presale.html:99
+#: templates/presale.html:101
 msgid "What type of entity do you represent?"
 msgstr "Тип организации, которую вы представляете?"
 
-#: templates/presale.html:103
+#: templates/presale.html:105
 msgid "Individual"
 msgstr "Частное лицо"
 
-#: templates/presale.html:108
+#: templates/presale.html:110
 msgid "Syndicate"
 msgstr "Синдикат"
 
-#: templates/presale.html:113
+#: templates/presale.html:115
 msgid "Professional Fund"
 msgstr "Профессиональный фонд"
 
-#: templates/presale.html:120
+#: templates/presale.html:122
 msgid "<strong>Desired allocation</strong>"
-msgstr "<strong> Желаемая сумма </strong>"
+msgstr "<strong> Желаемая сумма </ strong>"
 
-#: templates/presale.html:137
+#: templates/presale.html:139
 msgid "Citizenship"
 msgstr "Гражданство"
 
-#: templates/presale.html:392
+#: templates/presale.html:394
 msgid "<strong>ETH or BTC address you plan to send from?</strong> (optional)"
 msgstr "<strong>Адрес ETH или  BTC, с которого вы планируете отправлять транзакции </ strong> (необязательно)"
 
-#: templates/presale.html:402
+#: templates/presale.html:404
 msgid "Important notice"
 msgstr "Важное примечание"
 
-#: templates/presale.html:405
+#: templates/presale.html:407
 msgid " I understand the presale will be subject to United States regulations and securities laws and that submitting this form is NOT a guarantee of allocation."
 msgstr " Я понимаю, что предпродажа будет регулироваться законодательством США и законами о ценных бумагах, и что представление этой формы НЕ является гарантией распределения."
+
+#: templates/presale.html:417
+msgid "Submit"
+msgstr "Принять"
 
 #: templates/team.html:3
 msgid "The sharing economy without intermediaries: Origin Protocol Team"
@@ -662,27 +763,27 @@ msgstr "Джои является соучредителем Augur, первог
 msgid "Investors"
 msgstr "Инвесторы"
 
-#: views/web_views.py:62 views/web_views.py:106
+#: views/web_views.py:97 views/web_views.py:141
 msgid "Please enter your name"
 msgstr "Укажите имя"
 
-#: views/web_views.py:64 views/web_views.py:110
+#: views/web_views.py:99 views/web_views.py:145
 msgid "Please enter your email"
 msgstr "Пожалуйста, укажите адрес эл. почты"
 
-#: views/web_views.py:66
+#: views/web_views.py:101
 msgid "An error occured"
 msgstr "Произошла ошибка"
 
-#: views/web_views.py:68
+#: views/web_views.py:103
 msgid "Please enter your desired allocation"
 msgstr "Введите желаемую сумму перевода"
 
-#: views/web_views.py:70
+#: views/web_views.py:105
 msgid "Please agree to the important notice"
 msgstr "Пожалуйста, согласитесь с важным замечанием"
 
-#: views/web_views.py:108
+#: views/web_views.py:143
 msgid "Please enter your company name"
 msgstr "Укажите название своей компании"
 
@@ -691,4 +792,25 @@ msgstr "Укажите название своей компании"
 
 #~ msgid "An accredited investor must have a net worth of at least $1,000,000, excluding the value of one's primary residence, or have income at least $200,000 each year for the last two years (or $300,000 combined income if married."
 #~ msgstr "Аккредитованный инвестор должен иметь чистые активы в размере не менее 1 000 000 долларов США, за исключением стоимости недвижимости - основного места жительства или иметь доход не менее 200 000 долларов США каждый год в течение последних двух лет (или комбинированный доход в размере 300 000 долларов США, если он состоит в браке)."
+
+#~ msgid "<strong>Teams all over the world are building on Origin's protocols. We're looking for more amazing people to join our mission.</strong> Whether you're an existing blockchain company or a traditional marketplace thinking about the blockchain, we'd love to hear from you! Fill out the form below and we'll get back to you shortly."
+#~ msgstr "<strong> Команды во всему миру используют Origin. Мы ищем больше потрясающих людей, которые присоединятся к нашей миссии. </ Strong> Независимо от того, являетесь ли вы существующей блокчейн компанией или традиционным рынком, думающим о блокчейне, мы будем рады услышать вас! Заполните форму ниже, и мы скоро свяжемся с вами."
+
+#~ msgid "Interested in building?"
+#~ msgstr "Заинтересованы Origin?"
+
+#~ msgid "Origin, Inc."
+#~ msgstr "Origin, Inc."
+
+#~ msgid "Companies building on the Origin Protocol"
+#~ msgstr "Компании, использующие Origin Protocol"
+
+#~ msgid "View Github"
+#~ msgstr "Просмотр Github"
+
+#~ msgid "Launch <a href='https://demo.originprotocol.com'>alpha</a> on Ethereum testnet"
+#~ msgstr "Запуск <a href='https://demo.originprotocol.com'> альфа-версии </a> в тестовой сети Ethereum"
+
+#~ msgid "If Airbnb were being started today, it would’ve been a peer-to-peer cooperative model based on a blockchain - Joey Krug, Augur"
+#~ msgstr "Если бы Airbnb начинали сегодня, это была бы модель неиерархичного сотрудничества, основанная на блокчейне - Joey Krug, Augur"
 
